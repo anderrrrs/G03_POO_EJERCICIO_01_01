@@ -10,9 +10,9 @@ package com.mycompany.ejercicio01;
  */
 public class Trabajador {
     
-    long cedula;
+    int id;
     String nombre;
     String apellido;
-    int numeroCelular;
+    String correo;
     
 }

@@ -8,11 +8,11 @@ package com.mycompany.ejercicio01;
  *
  * @author USER
  */
-public class Clientes {
+public class Vehiculo {
     
-    long cedula;
-    String nombre;
-    String apellido;
-    int edad;
+    long id;
+    String placa;
+    String marca;
+    String modelo;
     
 }

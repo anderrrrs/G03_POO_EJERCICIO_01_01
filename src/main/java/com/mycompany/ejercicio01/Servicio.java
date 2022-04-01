@@ -12,9 +12,9 @@ import java.util.Date;
  */
 public class Servicio {
     
-    long id;
-    String nombreTrabajor;
+    int id;
+    String nombreTrabajador;
     String direccion;
-    double valorPagar;
+    int valorPagar;
     
 }
