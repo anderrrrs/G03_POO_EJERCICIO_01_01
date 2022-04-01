@@ -119,17 +119,29 @@ public class Principal {
         System.out.println("El apellido es: " +trabajador2.correo);
         System.out.println("----------------------------------");
         
-       var vehiculos = new Vehiculo();
-       
-    vehiculos.placa = "ABC-342";
-    vehiculos.modelo = "Chevrolet";
-    vehiculos.placa = "BAM-322";
-    vehiculos.modelo = "Nissan";
+       var vehiculo = new Vehiculo();
+              var vehiculo2 = new Vehiculo();
 
-        System.out.println("la placa es: " +vehiculos.placa);
-        System.out.println("El modelo es: " +vehiculos.modelo);
-        System.out.println("la placa es: " +vehiculos.placa);
-        System.out.println("El modelo es: " +vehiculos.modelo);
+    vehiculo.id = 4567;
+    vehiculo.placa = "ABC-456";
+    vehiculo.marca = "Chevrolet";
+    vehiculo.modelo = "Family";
+
+        System.out.println("la placa es: " +vehiculo.id);
+        System.out.println("El modelo es: " +vehiculo.placa);
+        System.out.println("la placa es: " +vehiculo.marca);
+        System.out.println("El modelo es: " +vehiculo.modelo);
+        System.out.println("----------------------------------");
+        
+        vehiculo2.id = 4566;
+    vehiculo2.placa = "ATD-446";
+    vehiculo2.marca = "Chevrolet";
+    vehiculo2.modelo = "Ferrari";
+
+        System.out.println("la placa es: " +vehiculo2.id);
+        System.out.println("El modelo es: " +vehiculo2.placa);
+        System.out.println("la placa es: " +vehiculo2.marca);
+        System.out.println("El modelo es: " +vehiculo2.modelo);
         System.out.println("----------------------------------");
 
         
